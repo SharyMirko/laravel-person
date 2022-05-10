@@ -7,9 +7,9 @@
 <main>
     <table>
         <tr>
-            <th class="intestazione">Nome</th>
-            <th class="intestazione">Cognome</th>
-            <th class="intestazione">Età</th>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Età</th>
         </tr>
 
         @foreach ($persons as $person)
