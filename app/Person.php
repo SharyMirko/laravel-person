@@ -11,5 +11,5 @@ class Person extends Model
         'second_name',
         'age'
     ];
-    //test
+    protected $table='persons';
 }
