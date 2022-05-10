@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 0.7rem 1.7rem;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(225, 104, 159);
+  font-size: 19px;
+}
+
+.td {
+  background-color: rgb(109, 75, 109);
+}
+
