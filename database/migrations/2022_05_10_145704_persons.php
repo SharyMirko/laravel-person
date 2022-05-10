@@ -18,7 +18,7 @@ class Persons extends Migration
 
             $table->string('first_name', 20)->nullable();
             $table->string('second_name', 20)->nullable();
-            $table->int('age')->nullable();
+            $table->integer('age')->nullable();
             
             $table->timestamps();
         });
