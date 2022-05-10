@@ -42,7 +42,7 @@ class PersonSeeder extends Seeder
         foreach ($people as $person) {
             $newPerson= new Persons();
             $newPerson->first_name=$person['first_name'];
-            $newPerson->last_name=$person['last_name'];
+            $newPerson->second_name=$person['last_name'];
             $newPerson->age=$person['age'];
             $newPerson->save();
         };
