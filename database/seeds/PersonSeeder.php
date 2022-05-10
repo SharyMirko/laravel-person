@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Persons;
+use App\Person;
 
 class PersonSeeder extends Seeder
 {
@@ -40,7 +40,7 @@ class PersonSeeder extends Seeder
             ]
         ];
         foreach ($people as $person) {
-            $newPerson= new Persons();
+            $newPerson= new Person();
             $newPerson->first_name=$person['first_name'];
             $newPerson->second_name=$person['last_name'];
             $newPerson->age=$person['age'];
