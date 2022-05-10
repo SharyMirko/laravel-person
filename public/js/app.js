@@ -19432,13 +19432,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-__webpack_require__(/*! D:\Documents\Boolean\laravel-person\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Documents\Boolean\laravel-person\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! C:\Users\camil\OneDrive\Desktop\BOOLEAN\prova-git\laravel-person\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\camil\OneDrive\Desktop\BOOLEAN\prova-git\laravel-person\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> Scss-person
+__webpack_require__(/*! /Users/shary/boolean/laravel/laravel-person/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/shary/boolean/laravel/laravel-person/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
