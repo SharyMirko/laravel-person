@@ -1,6 +1,6 @@
 @extends('templates.base')
 
-@section('title', 'Comics | Homepage')
+@section('title', 'Persons')
 
 @section('mainContent')
 
