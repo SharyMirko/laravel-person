@@ -12,33 +12,39 @@ class PersonSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('persons')->insert(
         $people=[
             [
                 'first_name'=>'Giuseppe',
-                'second_name'=>'Mirizzi',
+                'last_name'=>'Mirizzi',
                 'age'=>27
             ],
             [
                 'first_name'=>'Mirko',
-                'second_name'=>'Moschella',
+                'last_name'=>'Moschella',
                 'age'=>27                                                                                                                                    
             ],
             [
                 'first_name'=>'Aldo',
-                'second_name'=>'Coccurullo',
+                'last_name'=>'Coccurullo',
                 'age'=>18                                                                                                                                                                                                                        
             ],
             [
                 'first_name'=>'Camilla',
-                'second_name'=>'Palombi',
+                'last_name'=>'Palombi',
                 'age'=>25
             ],
             [
                 'first_name'=>'Anthony',
-                'second_name'=>'Cecconi',
+                'last_name'=>'Cecconi',
                 'age'=>26
             ]
-            ]);
+        ];
+        foreach ($people as $person) {
+            $newPerson= new Persons();
+            $newPerson->first_name=$person['first_name'];
+            $newPerson->last_name=$person['last_name'];
+            $newPerson->age=$person['age'];
+            $newPerson->save();
+        };
     }
 }
