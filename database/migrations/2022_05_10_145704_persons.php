@@ -13,7 +13,15 @@ class Persons extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('persons', function (Blueprint $table) {
+            $table->id();
+
+            $table->string('first_name', 20)->nullable();
+            $table->string('second_name', 20)->nullable();
+            $table->int('age')->nullable();
+            
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +31,6 @@ class Persons extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('persons');
     }
 }
